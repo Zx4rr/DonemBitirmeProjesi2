@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css dosyası -->
+    <link rel="stylesheet" href="/css/site2.css">
+    <!-- icon kütüphanesi -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"rel="stylesheet"/>
+    <!-- scrolreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Sultan proje teslimi</title>
+</head>
+<body>
+    <!-- header -->
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Cınar Design | Metinler.</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="#">Edebiyatın Derin Dalları</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="#home">Ana Sayfa</a></li>
+            <li class="link"><a href="#about">Proje Hakkında</a></li>
+            <li class="link"><a href="#discover">Keşfet ve Araştırma</a></li>
+            <li class="link"><a href="#blog">Yöntemlere Giriş</a></li>
+            <li class="link"><a href="#journals">Yöntemler</a></li>
+            <li class="link"><a href="#gallery">Galeri ve Cemil Meriç</a></li>
+            <li class="link"><a href="#contact">İletişim</a></li>
+            <li class="link search">
+              <span><i class="ri-search-line"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container">
+        <h1>Metin Benzerliklerinin Araştırılmasına Yönelik Yöntemlerin Uygulanması ve Karşılaştırılması</h1>
+        <h4>Edebiyatın Derin Dalları</h4>
+        <button class="btn">
+          Daha Fazlası İçin Siteyi İnceleyin <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__content">
+          <h2 class="section__header">Web Sitemiz ve Projemiz Hakkında Bilgi Sahibi Olun</h2>
+          <p class="section__subheader">
+            Metin benzerliği, iki metin parçası arasındaki anlamsal veya sözdizimsel benzerlik derecesini ifade eder. Farklı alanlarda, intihal tespiti, makine çevirisi ve metin özetleme gibi çeşitli görevlerde metin benzerliği 
+            önemli bir rol oynar. Bu alanda birçok farklı yöntem geliştirilmiştir ve her birinin kendine özgü avantajları ve dezavantajları vardır.
+            Bu çalışmada, metin benzerliği araştırmasında kullanılan bazı yaygın yöntemleri inceleyeceğiz ve bunları farklı veri kümeleri üzerinde karşılaştıracağız. İnceleyeceğimiz yöntemler şunlardır:
+          </p>
+          <div class="about__flex">
+            <div class="about__card">
+              <h4>1</h4>
+              <p>Leksemel Benzerlik</p>
+            </div>
+            <div class="about__card">
+              <h4>2</h4>
+              <p>Öznitel Benzerlik</p>
+            </div>
+            <div class="about__card">
+              <h4>3</h4>
+              <p>Gösterim Öğrenimi</p>
+            </div>
+          </div>
+          <button class="btn">
+            Daha Fazlası İçin Tıklayın <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+        <div class="about__image">
+          <img src="/assets/image/edebiyat.jpg" alt="about" />
+        </div>
+      </div>
+    </section>
+
+    <section class="discover" id="discover">
+      <div class="section__container discover__container">
+        <h2 class="section__header">Konuyu Daha Detaylı İnceleyelim</h2>
+        <p class="section__subheader">
+          Bu çalışmada, metin benzerliği araştırmasında kullanılan bazı yaygın yöntemleri inceleyeceğiz ve bunları farklı veri kümeleri üzerinde karşılaştıracağız. İnceleyeceğimiz yöntemler şunlardır:
+        </p>
+        <div class="discover__grid">
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="/assets/image/kitaplık.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Leksemel Benzerlik</h4>
+              <p>
+                Bu yöntem, iki metin arasındaki ortak kelimelerin sayısına veya oranına 
+                dayanmaktadır. Basit ve hesaplanması kolaydır, 
+                ancak kelime sırası ve anlam gibi faktörleri dikkate almaz.
+              </p>
+              <button class="discover__btn">
+                Daha fazlasına göz at <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="/assets/image/38603.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Öznitelik Benzerliği</h4>
+              <p>
+                Bu yöntem, her metni temsil etmek için bir 
+                dizi özellik (örneğin, kelime sıklıkları, 
+                TF-IDF değerleri) kullanır ve ardından 
+                bu özellik vektörleri arasındaki benzerliği hesaplar. Leksemel 
+                benzerlikten daha sağlamdır, ancak özelliklerin seçimi ve temsili önemli bir rol oynar.
+              </p>
+              <button class="discover__btn">
+                Daha fazlasına göz at <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="/assets/image/kitaplık2.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Gösterim Öğrenimi</h4>
+              <p>
+                Bu yöntem, metinleri temsil etmek için vektörler öğrenmek için sinir ağlarını kullanır. 
+                Bu vektörler, sözdizimi ve anlam gibi karmaşık ilişkileri yakalayabilir ve state-of-the-art (son teknoloji sanat)sonuçlar 
+                elde edebilir. Ancak, bu yöntemler daha fazla veri ve hesaplama gücü gerektirir.
+              </p>
+              <button class="discover__btn">
+                Daha fazlasına göz at <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs" id="blog">
+      <div class="blogs__container">
+        <h2 class="section__header">Farklı Veri Kümeleri Üzerinde Yöntemler</h2>
+        <p class="section__subheader">Farklı veri kümeleri üzerinde bu yöntemleri karşılaştırarak, her birinin güçlü ve zayıf yönlerini daha iyi anlayabiliriz. 
+        Bu bilgiler, belirli bir uygulama için en uygun yöntemi seçmemize yardımcı olabilir.</p>
+        <div class="blogs__grid">
+          <div class="blogs__card">
+            <img src="/assets/image/kitaplık6.jpg" alt="blog" />
+            <div class="blogs__content">
+              Deneysel Çalışma
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="/assets/image/kitaplık4.jpg" alt="blog" />
+            <div class="blogs__content">
+              Sonuç Bilgisi
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="/assets/image/kitaplık3 (1).jpg" alt="blog" />
+            <div class="blogs__content">
+              Gelecekte ki Çalışmalar
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="/assets/image/kitaplık5.jpg" alt="blog" />
+            <div class="blogs__content">
+              Araştırma Kaynakları
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journals" id="journals">
+      <div class="section__container journals__container">
+        <h2 class="section__header">Yöntemleri Daha Yakından Öğrenelim</h2>
+        <p class="section__subheader">
+        Her veri kümesi için, her yöntemi kullanarak metin çiftleri için benzerlik puanları hesaplayacağız. Ardından bu
+        puanları gerçek etiketlerle karşılaştırarak her yöntemin doğruluğunu değerlendireceğiz.
+        </p>
+        <div class="journals__grid">
+          <div class="journals__card">
+            <img src="/assets/image/arrangement-with-books-cup-dark-background.jpg" alt="journal" />
+            <div class="journals__content">
+              <div class="journals__author">
+                <img src="/assets/image/author-1.jpg" alt="author" />
+                <p>SemEval 2017 Task 1:</p>
+              </div>
+              <h4>Bu veri kümesi, farklı dillerden metin çifti 
+              içerir ve bunların benzer olup olmadığına dair etiketler içerir.</h4>
+              <div class="journals__footer">
+                <p>18 Apr 2022</p>
+                <span>
+                  <a href="#"><i class="ri-share-fill"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="/assets/image/books-stack-arrangement-high-angle.jpg" alt="journal" />
+            <div class="journals__content">
+              <div class="journals__author">
+                <img src="/assets/image/author-2.jpg" alt="author" />
+                <p>Quora Question Paraphrase:</p>
+              </div>
+              <h4>Bu veri kümesi, benzer veya aynı anlamı taşıyan soru çiftleri içerir.</h4>
+              <div class="journals__footer">
+                <p>22 Jun 2022</p>
+                <span>
+                  <a href="#"><i class="ri-share-fill"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="/assets/image/books-stack-arrangement-high-angle.jpg" alt="journal" />
+            <div class="journals__content">
+              <div class="journals__author">
+                <img src="/assets/image/author-3.jpg" alt="author" />
+                <p>Wikipedia Paraphrase:</p>
+              </div>
+              <h4>Bu veri kümesi, Wikipedia 
+              makalelerinden gelen benzer veya aynı anlamı taşıyan cümle çiftleri içerir.</h4>
+              <div class="journals__footer">
+                <p>05 Sep 2022</p>
+                <span>
+                  <a href="#"><i class="ri-share-fill"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="/assets/image/high-angle-books-stack-arrangement.jpg" alt="journal" />
+            <div class="journals__content">
+              <div class="journals__author">
+                <img src="/assets/image/author-4.jpg" alt="author" />
+                <p>Sonuç Çalışmaları</p>
+              </div>
+              <h4>Metin benzerliği, doğal dil işlemede önemli bir görevdir ve bu görev için birçok farklı 
+              yöntem geliştirilmiştir. Bu çalışmada, üç farklı veri kümesi üzerinde bazı yaygın 
+              metin benzerliği yöntemlerini karşılaştırdık. Sonuçlarımız, farklı yöntemlerin farklı veri 
+              kümeleri üzerinde farklı performanslar gösterebileceğini göstermektedir. Belirli bir uygulama için en uygun yöntemi seçerken, veri kümesinin 
+              özelliklerini ve uygulamanın gereksinimlerini göz önünde bulundurmak önemlidir.</h4>
+              <div class="journals__footer">
+                <p>14 Dec 2022</p>
+                <span>
+                  <a href="#"><i class="ri-share-fill"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="/assets/image/arrangement-with-books-cup-dark-background.jpg" alt="journal" />
+            <div class="journals__content">
+              <div class="journals__author">
+                <img src="/assets/image/author-5.jpg" alt="author" />
+                <p>Gelecekteki Çalışmalar</p>
+              </div>
+              <h4>Gelecekteki çalışmalar, daha karmaşık metin benzerliği yöntemlerini incelemeyi ve 
+              farklı veri kümeleri üzerinde daha kapsamlı bir karşılaştırma yapmayı içerebilir. Ayrıca, 
+              belirli uygulamalar için optimize edilmiş yeni yöntemler geliştirmeye çalışabiliriz.</h4>
+              <div class="journals__footer">
+                <p>10 Feb 2022</p>
+                <span>
+                  <a href="#"><i class="ri-share-fill"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="/assets/image/high-angle-books-stack-arrangement.jpg" alt="journal" />
+            <div class="journals__content">
+              <div class="journals__author">
+                <img src="/assets/image/author-6.jpg" alt="author" />
+                <p>Deneysel Çalışma</p>
+              </div>
+              <h4>Farklı veri kümeleri üzerinde bu yöntemleri karşılaştırarak, 
+              her birinin güçlü ve zayıf yönlerini daha iyi anlayabiliriz. Bu bilgiler, 
+              belirli bir uygulama için en uygun yöntemi seçmemize yardımcı olabilir.</h4>
+              <div class="journals__footer">
+                <p>20 Mar 2023</p>
+                <span>
+                  <a  href="#"><i class="ri-share-fill"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="journals__btn">
+          <button class="btn">
+            Yöntemler Hakkında Daha Fazla Bilgiye Ulaşın <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="section__container hero__container">
+        <p>Edebiyat</p>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery__container">
+        <h2 class="section__header">Cemil Meriç</h2>
+        <p class="section__subheader">
+          Başta dil, tarih, edebiyat, felsefe ve sosyoloji olmak üzere 
+          sosyal bilimlerin birçok alanında araştırma yapmış ve 
+          yazılar kaleme almış bir düşünce adamıdır. Telif ettiği 
+          12 eseri ve tercümeleriyle Türk edebiyatında önemli bir 
+          yeri olduğu kabul edilir. Sosyoloji profesörü Ümit Meriç’in babasıdır.
+        </p>
+        <div class="gallery__grid">
+          <div class="gallery__card">
+            <img src="/assets/image/CemilMeric.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Resim</h4>
+              <p>1</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="/assets/image/cemilmeric2.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Krabi</h4>
+              <p>Thailand</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="/assets/image/cemilmeric3.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Bali</h4>
+              <p>Indonesia</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="/assets/image/cemilmeric4.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Tokyo</h4>
+              <p>Japan</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="/assets/image/cemilmeric5.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Taj Mahal</h4>
+              <p>India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section__container contact__container">
+        <div class="contact__col">
+          <h4>Metin Türlerinin Sınıflandırmasını Daha Detaylı,</h4>
+          <p>Öğrenmek için iletişime bizimle iletişime geçin.</p>
+        </div>
+        <div class="contact__col">
+          <div class="contact__card">
+            <span><i class="ri-phone-line"></i></span>
+            <h4>Telefon Numaramız</h4>
+            <h5>+91 9876543210</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="contact__col">
+          <div class="contact__card">
+            <span><i class="ri-mail-line"></i></span>
+            <h4>E-mail'den ulaşın</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="section__container footer__container">
+        <h4>Edebiyatın Derin Dalları</h4>
+        <div class="footer__socials">
+          <span>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </span>
+        </div>
+        <p>
+          Metin Benzerliklerinin Araştırılmasına Yönelik Yöntemlerin Uygulanması ve Karşılaştırılması
+        </p>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#home">Ana Sayfa</a></li>
+          <li class="footer__link"><a href="#about">Proje Hakkında</a></li>
+          <li class="footer__link"><a href="#discover">Keşif ve Araştırma</a></li>
+          <li class="footer__link"><a href="#blog">Yöntemlere Giriş</a></li>
+          <li class="footer__link"><a href="#journals">Yöntemler</a></li>
+          <li class="footer__link"><a href="#gallery">Galeri ve Cemil Meriç</a></li>
+          <li class="footer__link"><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Bu Tasarım CınarProgramming Tarafından Yapılmıştır
+      </div>
+    </section>
+
+    <script src="/js/site2.js"></script>
+  </body>
+</html>
+</body>
+</html>
